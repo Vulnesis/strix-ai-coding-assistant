@@ -1,6 +1,6 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
-  "projectTitle": "Pix (Vulnetix for coding agents)",
+  "projectTitle": "Strix (Vulnetix for coding agents)",
   "description": "Vulnetix agent plugin: hooks that check dependencies, commits and sessions against your policy, and skills for scanning, fixing and triaging vulnerabilities in your working tree.",
   "excludeFolders": [".github", ".vulnetix", ".worktrees", ".vscode", "scripts"],
   "rules": [

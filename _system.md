@@ -1,4 +1,4 @@
-# Pix — system reference
+# Strix — system reference
 
 Vulnesis for coding agents: three hooks, eighteen skills, five subagents. This
 document is the architecture; `README.md` is the user-facing front door and

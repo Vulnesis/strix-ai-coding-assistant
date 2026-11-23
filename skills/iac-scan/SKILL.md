@@ -25,7 +25,7 @@ metadata:
 
 - Source-code SAST — use `sast-scan`.
 - Dockerfile / container analysis — use `container-scan`.
-- Cloud runtime monitoring — Pix is static-only; use a CSPM for runtime.
+- Cloud runtime monitoring — Strix is static-only; use a CSPM for runtime.
 
 ## Conventions
 

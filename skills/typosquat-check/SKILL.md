@@ -25,7 +25,7 @@ metadata:
 
 - CVE-based vulnerability scanning — use `vulnetix scan --sca`.
 - Generic package risk before adding — use `dependency-choice`.
-- Detecting compromised packages via runtime behaviour — Pix is static-only.
+- Detecting compromised packages via runtime behaviour — Strix is static-only.
 
 ## Conventions
 

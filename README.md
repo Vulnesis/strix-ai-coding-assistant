@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="pix.svg" alt="Pix, the Vulnesis AI coding assistant" width="160">
+  <img src="strix.svg" alt="Strix, the Vulnesis AI coding assistant" width="160">
 </p>
 
-# Pix: Vulnesis for coding agents
+# Strix: Vulnesis for coding agents
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/pix-ai-coding-assistant)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/strix-ai-coding-assistant)
 
 Three hooks and eighteen skills. The hooks interrupt only when your agent is
 about to do something your own policy disagrees with; the skills cover the work
@@ -23,7 +23,7 @@ question has one answer instead of three competing descriptions of the same job.
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Privacy](#privacy)
-- [Full documentation](https://docs.vulnes.is/pix/)
+- [Full documentation](https://docs.vulnes.is/strix/)
 
 ## Install
 
@@ -49,8 +49,8 @@ curl -fsSL https://cli.vulnes.is/install.sh | sh
 <summary>Registry installs, if you would rather</summary>
 
 ```bash
-gh skill install Vulnesis/pix-ai-coding-assistant
-npx skills add Vulnesis/pix-ai-coding-assistant
+gh skill install Vulnesis/strix-ai-coding-assistant
+npx skills add Vulnesis/strix-ai-coding-assistant
 ```
 
 Both work because the canonical skills live at `skills/` in the repository root,
@@ -60,7 +60,7 @@ hooks and MCP wiring still need `vulnetix agent install`.
 Claude Code marketplace:
 
 ```
-/plugin marketplace add Vulnesis/pix-ai-coding-assistant
+/plugin marketplace add Vulnesis/strix-ai-coding-assistant
 /plugin install vulnetix@vulnetix-plugins
 ```
 </details>
@@ -205,9 +205,9 @@ Apache-2.0. See [LICENSE](LICENSE).
 
 ## Resources
 
-- [Plugin documentation](https://docs.vulnes.is/pix/)
+- [Plugin documentation](https://docs.vulnes.is/strix/)
 - [CLI documentation](https://docs.vulnes.is/cli/)
 - [MCP server](https://www.vulnes.is/features/mcp-server)
 - [VDB API reference](https://redocly.github.io/redoc/?url=https://api-vdb.vulnes.is/v1/spec)
 
-Issues: [github.com/Vulnetix/pix-ai-coding-assistant](https://github.com/Vulnesis/pix-ai-coding-assistant).
+Issues: [github.com/Vulnetix/pix-ai-coding-assistant](https://github.com/Vulnesis/strix-ai-coding-assistant).
