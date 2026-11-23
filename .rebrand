@@ -1,7 +1,0 @@
-# scripts/rebrand.py config (Vulnesis/ops).
-# Shared by both brands: only documents are rebranded. Skills are instructions
-# agents follow: the shared contract keeps the Vulnetix URLs as defaults and
-# names the vulnes.is equivalents for VULNETIX_BRAND=vulnesis.
-docs-only
-keep VULNETIX_
-ignore skills/_lib/contract.md
