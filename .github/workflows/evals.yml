@@ -30,7 +30,7 @@ concurrency:
 jobs:
   corpus:
     name: Corpus
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     permissions:
       contents: read
     steps:
@@ -76,7 +76,7 @@ jobs:
     name: Agent-driven
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
     needs: corpus
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     permissions:
       contents: read
     steps:

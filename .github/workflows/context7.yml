@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   refresh:
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     steps:
       - name: Refresh the Context7 library
         env:
