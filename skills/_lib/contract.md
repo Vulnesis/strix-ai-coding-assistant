@@ -24,7 +24,7 @@ command -v vulnetix >/dev/null 2>&1 || {
   brew install Vulnetix/tap/vulnetix 2>/dev/null ||
   scoop install vulnetix 2>/dev/null ||
   nix profile install github:Vulnetix/cli 2>/dev/null ||
-  curl -fsSL https://cli.vulnetix.com/install.sh | sh
+  curl -fsSL https://cli.vulnes.is/install.sh | sh
 }
 ```
 
