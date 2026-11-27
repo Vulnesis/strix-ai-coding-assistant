@@ -4,9 +4,9 @@
   "description": "Pix AI Coding Assistant — vulnerability intelligence for coding agents. 18 skills and 3 hooks, all of them local work: is this dependency acceptable, does this CVE reach this repository, is this change safe to commit, apply and verify a fix. Lookups are not skills here — they are the 31 tools on the Vulnetix MCP server and the CLI's own subcommands, so the same question has one answer instead of three. The hooks are one Go binary (`vulnetix agent hook`) rather than shell scripts, so they run on Windows and on every agent, not only the one that sets CLAUDE_PLUGIN_ROOT.",
   "author": {
     "name": "Vulnetix",
-    "url": "https://vulnetix.com"
+    "url": "https://vulnes.is"
   },
-  "repository": "https://github.com/Vulnetix/pix-ai-coding-assistant",
+  "repository": "https://github.com/Vulnesis/strix-ai-coding-assistant",
   "license": "Apache-2.0",
   "keywords": ["security", "vulnerability", "dependency", "scanning", "exploit", "cve", "sbom", "sca"]
 }
